@@ -143,6 +143,8 @@ body {
 
 .about-me {
   padding-top: 64px;
+  position: relative;
+  z-index: -2;
 }
 .about-box {
   padding: 64px 48px;
@@ -263,7 +265,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  z-index: -1;
+  z-index: -2;
 }
 .counter::before {
   content: "";
@@ -343,6 +345,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    z-index: -2;
   }
   
   .testmonial::before {
@@ -424,6 +427,7 @@ body {
   /* Blog Section */
   .blog{
     position: relative;
+    z-index: -2;
   }
   .card-blog .card-img img{
     width: 100%;
@@ -493,6 +497,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  z-index: -2;
 }
 .contact::before {
   content: "";
